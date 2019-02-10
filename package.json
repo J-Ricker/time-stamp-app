@@ -1,0 +1,15 @@
+{
+  "name": "time-stamp-app",
+  "version": "1.0.0",
+  "description": "repository for timestamp microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/J-Ricker/time-stamp-app"
+  },
+  "author": "Jeremy Ricker",
+  "license": "ISC"
+}
