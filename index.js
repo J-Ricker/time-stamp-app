@@ -6,7 +6,7 @@ const requestHandler = (req, res) => {
     fs.readFile("views/index.html", "utf8", (err, html) => {
         if (err) throw err;
 
-res.writeHead(200, { "Content-Type": "text/html" });
+    res.writeHead(200, { "Content-Type": "text/html" });
         res.end(html);
     });
     }
